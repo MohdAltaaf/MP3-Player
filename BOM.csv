@@ -1,0 +1,13 @@
+# Bill of Materials
+
+| S.No | Component | Qty | Unit Price (USD) | Line Total (USD) |
+|---:|---|---:|---:|---:|
+| 1 | ESP32 (ESP-WROOM-32 DevKit) | 1 | $7.00 | $7.00 |
+| 2 | OLED Display (0.96" I2C SSD1306) | 1 | $4.00 | $4.00 |
+| 3 | PCM5102A (I2S DAC) | 1 | $6.00 | $6.00 |
+| 4 | Micro SD Module | 1 | $2.00 | $2.00 |
+| 5 | Module Charging (TP4056 Type-C) | 1 | $1.50 | $1.50 |
+| 6 | Encoder Module (KY-040) | 1 | $2.00 | $2.00 |
+| 7 | Switch (SPDT slide) | 1 | $0.50 | $0.50 |
+| 8 | Battery (3.7V Li-ion, 1000mAh) | 1 | $5.00 | $5.00 |
+| | **TOTAL** | | | **$28.00** |
