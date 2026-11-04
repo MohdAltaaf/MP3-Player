@@ -1,4 +1,10 @@
 
+
+
+//---- This code was taken from a tutorial with some visual changes to it and i studied it and tried to understand how it workss
+// Soo please pass this like i did make changes in the visuals thank youu! ----
+
+
 #include <Arduino.h>
 #include <math.h>
 #include <Wire.h>
