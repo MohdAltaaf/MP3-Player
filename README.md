@@ -1,32 +1,33 @@
 # MP3 Player
+  
 
-# Pocket MP3 Player (ESP32)
+A pocket MP3 player that uses an ESP32 as its brain and one rotary encoder to pause/play and scroll/change volume.
+Charges with USB-C and uses a Micro SD card to load music.
 
-A tiny, battery-powered MP3 player you can build on a breadboard in an evening.
-Drop songs on a micro SD card, turn the knob to pick a track, press it to play.
-The little screen shows what's playing, and a real DAC chip keeps the sound clean.
+<img width="872" height="501" alt="image" src="https://github.com/user-attachments/assets/3375f76d-1bd9-4606-91dd-9df06e4ee1ae" />
 
-
-
-## What it does
-
-- Plays MP3 files from a micro SD card
-- Shows the track name and status on a 0.96" OLED
-- One rotary knob: **turn** to scroll or change volume, **press** to play/pause
-- Runs on a rechargeable battery, charges over USB-C
-- Clean audio out through a PCM5102A I2S DAC (no scratchy ESP32 built-in DAC)
-
-- <img width="872" height="501" alt="Screenshot 2026-11-04 094244" src="https://github.com/user-attachments/assets/94d387c6-77e8-467f-89c3-0e418cdb7ddb" />
-
-- <img width="1581" height="771" alt="Screenshot 2026-11-04 094307" src="https://github.com/user-attachments/assets/6298e94d-8cd2-4eeb-ac9e-e086dd6d6549" />
+I made this project coz I LOVE Ipods but never actually got to use one coz well they are expensive, 
+so this is something that i will make and will ACTUALLY be using. 
+- <img width="1181" height="731" alt="image" src="https://github.com/user-attachments/assets/ae5c946a-487f-4968-85bf-461f530d845c" />
+- CAD link: https://cad.onshape.com/documents/6f9b95764f25c41f83fd31fd/w/3afffe42008d70e8d8971931/e/8490a5b4600c0ded76b7c268?renderMode=0&uiState=6aeef12c361eb9d5470cfe5c
+- <img width="1230" height="805" alt="image" src="https://github.com/user-attachments/assets/4d8fcdce-dd1e-4258-b791-f82beaa73b3b" />
+- Wokwi Wirirng diagram link: https://wokwi.com/projects/479055172950502401
 
 
+## Notes for using it: 
+- The memorycard should be formatted as **FAT32** and it should have '.mp3' files on it, they should not be inside some folder in the SD card.
+- Uhm thats it.
+## BOM
 
 
-## Getting it running
-
-1. Format your micro SD card as **FAT32** and copy some `.mp3` files to it.
-2. Wire everything up using the tables above.
-3. Install the Arduino IDE (or PlatformIO) with ESP32 board support.
-4. Open the project, pick your ESP32 board, and upload.
-5. Switch it on, plug in headphones, turn the knob.
+| S.No | Component | Product | Qty | Unit Price (USD) | Line Total (USD) | Link |
+|---:|---|---|---:|---:|---:|---|
+| 1 | ESP32 | OceanLabz ESP32 Development Board (38-pin) | 1 | $7.00 | $7.00 | [Amazon](https://www.amazon.in/dp/B0FQJ22MRM) |
+| 2 | OLED Display | Robocraze OLED Display (SSD1306) | 1 | $4.00 | $4.00 | [Amazon](https://www.amazon.in/dp/B07Q7VZ716) |
+| 3 | PCM5102A | PCM5102A I2S DAC Module | 1 | $6.00 | $6.00 | [Amazon](https://www.amazon.in/dp/B0DNW32Y46) |
+| 4 | Micro SD Module | Robocraze Micro SD Card Module | 1 | $2.00 | $2.00 | [Amazon](https://www.amazon.in/dp/B07H3VCVVN) |
+| 5 | Module Charging | UG LAND INDIA Charging Module with Protection | 1 | $1.50 | $1.50 | [Amazon](https://www.amazon.in/dp/B0DBB136R6) |
+| 6 | Encoder Module | Electronic Spices KY-040 Rotary Encoder | 1 | $2.00 | $2.00 | [Amazon](https://www.amazon.in/dp/B0BHWCWJDR) |
+| 7 | Switch | SPDT slide switch (no link provided) | 1 | $0.50 | $0.50 | - |
+| 8 | Battery | KP 702030 3.7V Rechargeable Battery | 1 | $5.00 | $5.00 | [Amazon](https://www.amazon.in/dp/B0H6V2RCPQ) |
+| | **TOTAL** | | | | **$28.00** | |
