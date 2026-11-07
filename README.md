@@ -4,7 +4,8 @@
 A pocket MP3 player that uses an ESP32 as its brain and one rotary encoder to pause/play and scroll/change volume.
 Charges with USB-C and uses a Micro SD card to load music.
 
-<img width="872" height="501" alt="image" src="https://github.com/user-attachments/assets/3375f76d-1bd9-4606-91dd-9df06e4ee1ae" />
+- <img width="1581" height="771" alt="Screenshot 2026-11-04 094307" src="https://github.com/user-attachments/assets/961b933b-fa79-4712-a508-87427a29d6e2" />
+
 
 I made this project coz I LOVE Ipods but never actually got to use one coz well they are expensive, 
 so this is something that i will make and will ACTUALLY be using. 
