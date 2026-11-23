@@ -3,7 +3,7 @@ title: "MP3 Player"
 github: "https://github.com/MohdAltaaf/MP3-Player"
 description: "Its an MP3 player with just one knob to control it all based on ESP32 ."
 created_at: "2026-11-01"
-total_time: "6h"
+total_time: "7h 30m"
 ---
 
 # Journal
@@ -37,3 +37,17 @@ Gonna ship after making the BOM then boom gonna get to making.
 ![](https://fabricate.hackclub-assets.com/d7bce76d9c3608de469914f0ec835db3a61f4dc29f925407a19722265bceeb0b/image-png/Screenshot%202026-11-04%20094244.png)
 
 **Total time spent: 4h**
+
+# November 7, 2026: Addressed the feedback and made things right.
+<!-- fabricate:entry 2337 -->
+
+![](https://fabricate.hackclub-assets.com/bd4e1929a75195c36cceb57a18cb2ced28fb155fb52d66a21456e1c69aca1923/image-png/image.png)
+This was the feedback that i got so i went over things one by one: 
+- Will be submitting this project as t4 and not t3. 
+- I do have the step files in the repo but also now included the link to my onshape assembly in the readme.
+- Went through the docs and figured out what i was missing, i forgot to add the wiring diagram image in the readme as well as the BOM, so i did just that. 
+- It is true that the wiring diagram was not the best to look at so i cleaned it up as much as i could, but also included a public wokwi link in which one can easily figure out how everything is connected and can understand easily. 
+That is all I hope this meets the expectations i will be re-submitting now. 
+![](https://fabricate.hackclub-assets.com/49b639470ee5e32db17d3803a5c856e658109c5fd9395cd3694814966190ee79/image-png/image.png)
+
+**Total time spent: 1h 30m**
