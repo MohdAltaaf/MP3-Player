@@ -3,7 +3,7 @@ title: "MP3 Player"
 github: "https://github.com/MohdAltaaf/MP3-Player"
 description: "Its an MP3 player with just one knob to control it all based on ESP32 ."
 created_at: "2026-11-01"
-total_time: "7h 30m"
+total_time: "8h 30m"
 ---
 
 # Journal
@@ -51,3 +51,16 @@ That is all I hope this meets the expectations i will be re-submitting now.
 ![](https://fabricate.hackclub-assets.com/49b639470ee5e32db17d3803a5c856e658109c5fd9395cd3694814966190ee79/image-png/image.png)
 
 **Total time spent: 1h 30m**
+
+# November 23, 2026: Adressed the feeback(Again lol)
+<!-- fabricate:entry 3773 -->
+
+it was so stupid i forgot to make the link public. So thats done now.
+Made signigicant changes to the CAD model, 
+Now it has space for wiring and i made it such that every component now has its own slot so it would not be jumping around in the case, made screw holes for the case so its not just glue. 
+
+![](https://fabricate.hackclub-assets.com/0a26b72aad2650c4394c8b6022514cbc9e6749f98d24f56d110850b8d6209e05/image-png/image.png)
+It might be easier to use kicad, but im in the middle of exams right now, and learning kicad would reflect on my grades :(
+I did give a public wokwi link in the repo and here, which while is slightly inconvenient, allows the user to navigate the whole wiring diagram so they can fully understand the wiring. trust.
+
+**Total time spent: 1h**
